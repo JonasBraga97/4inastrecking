@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fale conosco</title>
+    <link rel="stylesheet" href="stylesheet_retrogames.css">
+    <link href="images/site_icon.png" rel="icon">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="produtos_e_servicos.html">Produtos e Serviços</a> |
+            <a href="index.html">Sobre nós</a> |
+            <a href="fale_conosco.html">Fale conosco</a>
+        </nav>
+        <p class="slogan">Old but gold, baby</p>
+    </header>
+
+    <main>
+        <section class="banner">
+            <h1>Fale conosco</h1>
+            <img src="images/Telefone .png" alt="Mario e Peach no telefone" />
+        </section>
+
+        <section class="contato-info">
+            <p><strong>Telefone:</strong> (21) 99059-8570</p>
+            <p><strong>E-mail:</strong> <a href="mailto:faleconosco@retrogames.com.br">faleconosco@retrogames.com.br</a></p>
+            <p><strong>Redes sociais:</strong> <a href="https://www.instagram.com/retro.games.official/" target="_blank"> Instagram</a>
+                <a href="https://www.facebook.com/groups/383114648553239" target="_blank"> Facebook</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p class="copyright">Copyright © 2026 Retro Games. Todos os direitos reservados. Retro Games Brasil Ltda. CNPJ: 00.623.506/0001-36</p>
+      <p class="endereco"><strong>Venha nos visitar:</strong><br>R. Rodrigues de Albuquerque, 32 – Irajá</p>
+    </footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retro Games</title>
+    <link rel="stylesheet" href="stylesheet_retrogames.css">
+    <link href="images/site_icon.png" rel="icon">
+</head>
+<body>
+
+    
+    <header>
+        <p class="texto">Retro Games Irajá</p>
+        <nav>
+           <a href="produtos_e_servicos.html">Produtos e Serviços</a> |
+            <a href="index.html">Sobre nós</a> |
+            <a href="fale_conosco.html">Fale conosco</a>
+        </nav>
+        <p>Old but gold, baby</p>
+        <img src="images/Fundo do site.png" alt="Banner Retro Games" width="300" height="200" />
+    </header>
+
+    
+    <main>
+
+        
+        <button class="btn-reserva" onclick="abrirFormulario()">
+            Reserve seu horário
+        </button>
+
+        
+        <div id="form-agendamento" style="display: none; margin-top: 20px;">
+            <h2>Agende seu horário</h2>
+
+            <form>
+                <label>Nome:</label><br>
+                <input type="text" required><br><br>
+
+                <label>Data:</label><br>
+                <input type="date" required><br><br>
+
+                <label>Horário:</label><br>
+                <input type="time" required><br><br>
+
+                <button type="submit">Confirmar</button>
+            </form>
+        </div>
+
+        
+        <section>
+            <h1>Sobre nós</h1>
+            <img src="images/Foto sobre nós.png" alt="Foto sobre nós" width="300" height="200" />
+            <p class="texto">O que é a Retro Games Irajá?</p>
+            <p>Somos uma empresa de games arcade formada por um grupo de amigos da faculdade em 1998 após termos sentido falta da competitividade local entre amigos nos jogos arcade.</p>
+        </section>
+
+    </main>
+
+    
+    <footer>
+        <p class="copyright">Copyright © 2026 Retro Games. Todos os direitos reservados. Retro Games Brasil Ltda. CNPJ: 00.623.506/0001-36</p>
+        <p class="endereco"><strong>Venha nos visitar:</strong><br>R. Rodrigues de Albuquerque, 32 – Irajá</p>
+    </footer>
+
+    
+    <script>
+        function abrirFormulario() {
+            var form = document.getElementById("form-agendamento");
+
+            if (form.style.display === "none") {
+                form.style.display = "block";
+            } else {
+                form.style.display = "none";
+            }
+        }
+    </script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos e Serviços</title>
+    <link rel="stylesheet" href="stylesheet_retrogames.css">
+    <link href="images/site_icon.png" rel="icon">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="produtos_e_servicos.html">Produtos e Serviços</a> |
+            <a href="index.html">Sobre nós</a> |
+            <a href="fale_conosco.html">Fale conosco</a>
+        </nav>
+        <p class="slogan">Old but gold, baby</p>
+    </header>
+
+    <main>
+        
+      <section class="banner-produtos">
+  <h1>Produtos e serviços</h1>
+</section>
+
+        <section class="frase-destaque">
+            <p class="frase_efeito_1">Não é apenas um jogo.<br class="frase_efeito_2">É um clássico</p>
+        </section>
+
+        <section class="galeria">
+            <div class="item-galeria">
+                <img src="images/Pinball.jpg" alt="Máquina de Pinball" />
+                <p class="texto-imagem">Pinball</p>
+            </div>
+            
+            <div class="item-galeria">
+                <img src="images/Fliperama1.jpeg" alt="Fliperamas Clássicos" />
+                <p class="texto-imagem">Fliperama</p>
+            </div>
+            
+            <div class="item-galeria destaque">
+                <img src="images/consoles-antigos.png" alt="Consoles Antigos" />
+                <p class="texto-imagem">Consoles<br>Clássicos</p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p class="copyright">Copyright © 2026 Retro Games. Todos os direitos reservados. Retro Games Brasil Ltda. CNPJ: 00.623.506/0001-36</p>
+        <p class="endereco"><strong>Venha nos visitar:</strong><br>R. Rodrigues de Albuquerque, 32 – Irajá</p>
+    </footer>
+
+</body>
+</html>
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    position: relative;
+}
+
+header nav {
+    order: 1; 
+    padding: 20px 40px;
+    font-size: 1.2rem;
+}
+
+header nav a {
+    color: #005500; 
+    text-decoration: none;
+    padding: 0 10px;
+    transition: 0.3s;
+}
+
+header nav a:hover {
+    color: #00ff00;
+}
+
+
+header > p:not(.texto), .slogan {
+    order: 2; 
+    color: #00cc00;
+    font-size: 1.5rem;
+    padding-right: 40px;
+}
+
+header img {
+    order: 4; 
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    max-height: 600px;
+    display: block;
+}
+
+header p.texto {
+    order: 3;
+    position: absolute;
+    top: 55%;
+    left: 8%;
+    transform: translateY(-50%);
+    font-size: 7vw;
+    font-weight: 800;
+    color: #00cc00;
+    z-index: 10;
+}
+
+
+footer {
+    background-color: #14a014;
+    color: #ffffff;
+    padding: 20px 40px 40px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+footer p.copyright, footer .copyright {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+footer .endereco {
+    font-size: 1rem;
+}
+
+
+main section:nth-of-type(1):not(.banner-produtos):not(.banner)
+ {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: auto auto 1fr;
+    background-color: #ffffff;
+}
+
+main section:nth-of-type(1):not(.banner-produtos):not(.banner) img {
+    grid-column: 1;
+    grid-row: 1 / 4;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+main section:nth-of-type(1):not(.banner-produtos):not(.banner) h1 {
+    grid-column: 2;
+    grid-row: 1;
+    color: #2ab91d;
+    font-size: 6rem;
+    padding: 60px 0 10px 60px;
+}
+
+main section:nth-of-type(1):not(.banner-produtos):not(.banner) p.texto {
+    grid-column: 2;
+    grid-row: 2;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #000;
+    padding-left: 60px;
+    margin-bottom: 25px;
+}
+
+main section:nth-of-type(1):not(.banner-produtos):not(.banner) p:not(.texto) {
+    grid-column: 2;
+    grid-row: 3;
+    font-size: 1.1rem;
+    color: #333;
+    line-height: 1.5;
+    padding: 0 60px;
+}
+
+main section:nth-of-type(2):not(.frase-destaque):not(.contato-info)
+ {
+    background-color: #14a014; 
+    color: #ffffff;
+    padding: 30px 40px 0 40px; 
+}
+
+main section:nth-of-type(2):not(.frase-destaque):not(.contato-info) p.texto
+ {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.btn-reserva {
+    position: absolute;
+    bottom: 30%; 
+    left: 5%; 
+    background-color: #d4f7f6; 
+    color: #000000;
+    padding: 15px 80px; 
+    border-radius: 40px; 
+    text-decoration: none; 
+    font-weight: bold;
+    font-size: 1.1rem;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.5); 
+    transition: background-color 0.3s; 
+}
+
+.btn-reserva:hover { background-color: #b0e6e4; }
+
+
+.banner-produtos {
+    background-image: url('images/Fundo-2.webp'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    height: 700px; 
+    width: 100%;
+    display: flex;
+    align-items: flex-start; 
+    justify-content: flex-start; 
+    padding: 100px 40px; 
+}
+
+.banner-produtos h1 {
+    color: #ffffff; 
+    font-size: 8rem; 
+    font-weight: bold;
+}
+
+.frase-destaque { color: #ffffff; padding: 0; }
+
+.frase_efeito_1 {
+    padding: 20px 40px;
+    color: #ffffff;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.2;
+    background-color: #000;
+}
+
+.galeria {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    max-width: 800px; 
+    margin: 50px 40px 80px auto;
+}
+
+.item-galeria { position: relative; }
+.item-galeria.destaque { grid-column: span 2; }
+.item-galeria img { width: 100%; height: 100%; object-fit: cover; display: block; }
+
+.texto-imagem {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: #00cc00; 
+    font-size: 3rem; 
+    line-height: 1; 
+}
+
+.banner { position: relative; width: 100%; }
+.banner img { width: 100%; height: auto; display: block; }
+
+.banner h1 {
+    position: absolute;
+    top: 20%; 
+    left: 5%; 
+    color: #ffffff; 
+    font-size: 6rem;
+}
+
+.contato-info {
+    background-color: #000;
+    padding: 40px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px; 
+}
+
+.contato-info p {
+    font-size: 1.8rem; 
+    color: #fff; 
+}
+
+.contato-info a {
+    color: #fff;
+    text-decoration: underline; 
+}
